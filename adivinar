@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+"""5) Realiza un programa que pida al usuario un número entero del 0 al 9, y que mientras el número no sea correcto se repita el proceso. Luego debe comprobar si el número se encuentra en la lista de números y notificarlo:"""
+
+lista =[0,1,2,4,5,6,7,9]
+again="s"
+while again=="s":
+    x=int(input("Dame un número del 0 al 9, a ver si acierta los huecos: "))
+    if x >= 0 and x >=9:
+        print("numero entre 0 y 9 please. ")
+        break
+    if x in lista:  
+        print("Buuuu, si es ta en la lista NO acertaste.")
+        again=input("vuelve a probar s/n ? :  ")
+    else:
+        print(x)
+        print("bien acerto el número que no esta en la lista  +3 puntos! ")
+        again=input("vuelve a probar s/n ? :  ")
