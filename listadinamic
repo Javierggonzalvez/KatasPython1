@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+"""6) Utilizando la función range() y la conversión a listas genera las siguientes listas dinámicamente:
+
+Todos los números del 0 al 10 [0, 1, 2, ..., 10]
+
+Todos los números del -10 al 0 [-10, -9, -8, ..., 0]
+
+Todos los números pares del 0 al 20 [0, 2, 4, ..., 20]
+
+Todos los números impares entre -20 y 0 [-19, -17, -15, ..., -1]
+
+Todos los números múltiples de 5 del 0 al 50 [0, 5, 10, ..., 50]"""
+lista1=[]
+lista2=[]
+lista3=[]
+lista4=[]
+lista5=[]
+listar=[]
+for i in range(0,11,1):
+    lista1.append(i)
+    lista2.append(-i)
+    lista3.append(i*2)
+    lista4.append((i*-2)+1)
+    lista5.append(i*5)
+lista2.reverse()
+lista4.reverse()
+print(lista1)
+print(lista2)
+print(lista3)
+print(lista4)
+print(lista5)
