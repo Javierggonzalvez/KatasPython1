@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+"""3) Realiza un programa que sume todos los números enteros pares desde el 0 hasta el 100:"""
+
+a=0
+for i in range(0,101,1):
+    if i%2==0:
+        a=i+a
+    print(a)
