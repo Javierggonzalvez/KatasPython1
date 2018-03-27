@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""Crea un conjunto llamado usuarios con los usuarios Marta, David, Elvira, Juan y Marcos Crea un conjunto llamado administradores con los administradores Juan y Marta. Borra al administrador Juan del conjunto de administradores. Añade a Marcos como un nuevo administrador, pero no lo borres del conjunto de usuarios. Muestra todos los usuarios por pantalla de forma dinámica, además debes indicar cada usuario es administrador o no."""
+
+usuarios ={"Marta", "David", "Elvira", "Juan", "Marcos"}
+administradores = { "Juan", "Marta"}
+print(usuarios)
+print(administradores)
+administradores.remove("Juan") #Borra a Juan del conjunto de administradores
+administradores.add("Marcos") #Añade a Marcos como un nuevo administrador
+print(administradores)
+for x in usuarios:
+    if x in administradores:
+        print("Administrador : ",x)
+    else:
+        print("Usuario : ",x)
