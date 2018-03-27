@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+"""4) Realiza un programa que pida al usuario cuantos números quiere introducir. Luego lee todos los números y realiza una media aritmética:"""
+
+valores=int(input("Cuantos números vas a introducir? :"))
+lista=[]
+x=0
+i=valores
+while i!=0: 
+    a = int(input("Introduce un numero : "))
+    lista.append(a)
+    x=x+a
+    print(x)
+    i=i-1
+print("lista valores",lista)
+print("total valores",x)
+print("media valores",x/valores)valores=int(input("Cuantos números vas a introducir? :"))
+lista=[]
+x=0
+i=valores
+while i!=0: 
+    a = int(input("Introduce un numero : "))
+    lista.append(a)
+    x=x+a
+    print(x)
+    i=i-1
+print("lista valores",lista)
+print("total valores",x)
+print("media valores",x/valores)
