@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+"""2) Realiza un programa que lea un número impar por teclado. Si el usuario no introduce un número impar, debe repetise el proceso hasta que lo introduzca correctamente."""
+
+z=0
+while z==0: 
+    a = int(input("Introduce un numero impar: "))
+    if a%2!=0:
+        print(" O L E")
+        z=z+1
+    else:
+        print("No habiamos dicho, número Impar ? ")
