@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""El jeringozo consiste en agregar una letra "p" después de cada vocal y luego repetir la vocal. Por ejemplo:
+enunciado = epenupuncipiapadopo
+ejemplo = epejepemplopo
+jeringozo = jeperipingopozopo"""
+
+
 palabra = input("Escriba una palabra o frase : ")
 word= palabra.lower()
 for i in word:
