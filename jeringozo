@@ -1,0 +1,9 @@
+palabra = input("Escriba una palabra o frase : ")
+word= palabra.lower()
+for i in word:
+    x = i + i
+    if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'):
+        x = i , i
+        print(i, end=' '),   #end=' ' y , para que imprima en la misma linea
+        print("p", end=' '),
+    print (i, end=' '),   
