@@ -1,0 +1,8 @@
+#!/usr/bin/python3 
+# -*- coding: utf-8 -*-
+
+try:
+    resultado = 15 + "20"
+except TypeError:
+    print("No podemos sumar string con int, debes pasar a int el string ")
+print("Fin programa")
