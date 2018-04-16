@@ -1,0 +1,8 @@
+#!/usr/bin/python3 
+# -*- coding: utf-8 -*
+
+try:
+    resultado = 10/0    
+except ZeroDivisionError:
+    print("Debes introducir numero >0")
+print("Fin programa")
