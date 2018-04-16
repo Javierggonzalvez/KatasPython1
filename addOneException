@@ -1,0 +1,17 @@
+#!/usr/bin/python3 
+# -*- coding: utf-8 -*-
+
+def agregar_una_vez(elementos,a):
+    try:
+        if a in elementos:
+            raise ValueError("Error! _Ya es ta incluido ")
+    except:
+        print(ValueError("Error! _Ya es ta incluido (from exception)"))
+    
+    else:
+        elementos.append(a)
+    
+
+elementos = [1, 5, -2]
+agregar_una_vez(elementos,6)
+print(elementos)
